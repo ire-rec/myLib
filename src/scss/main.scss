@@ -1,0 +1,29 @@
+// @import 'core/variables';
+@import 'core/reset';
+// @import 'components/code';
+// @import 'components/links';
+// @import 'layout/page';
+// @import 'layout/header';
+// @import 'layout/footer';
+// @import 'pages/index';
+
+
+:root{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.image-books{
+    border-radius: 10%;
+    width: 50px;
+}
+
+.h1{
+    font-size:x-large;
+    color: green;
+}
+
+.body .form{
+    display: inline;
+}
+
