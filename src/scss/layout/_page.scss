@@ -5,3 +5,25 @@ body {
   background-color: $color-bg;
   font-family: $font-main;
 }
+
+.main{
+  &__image{
+      border-radius: 10%;
+      width: 50px;
+  }
+
+  &__h1{
+      font-size:x-large;
+      color: green;
+  }
+
+  &__form{
+      display: inline;
+  }
+}
+
+
+
+
+
+
