@@ -1,26 +1,26 @@
+<main class="main">
+    <form 
+    action="https://adalab-server-form.herokuapp.com/" 
+    method="get" 
+    class="main__form"> 
 
-    <main class="main">
-
-
-<form 
- action="https://adalab-server-form.herokuapp.com/" 
- method="get" 
- class="main__form"> 
-
-    <label for="book"> Title or author</label>
-     <input 
-     type="text" 
-     id="book" 
-     name="book_name" 
-     placeholder="Ex: Agatha Christie"
-     required>
-
-
- <label for="submit"></label>
-     <input 
-     type="submit" 
-     value="Find my book!"
-     >
+        <label 
+        for="title"
+        class="main__form--labelTitle"> Title or author</label>
+        <input 
+        type="text" 
+        id="title" 
+        name="title" 
+        placeholder="Ex: Agatha Christie"
+        required
+        class="main__form--inputTitle">
  
- </form>
+        <label 
+        for="submit"
+        class="main__form--labelSearch"></label>
+        <input 
+        type="submit" 
+        value="Find my book!"
+        class="main__form--inputSearch">
+    </form>
 </main>

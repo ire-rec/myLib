@@ -3,7 +3,6 @@
 @import 'core/reset';
 @import 'components/code';
 @import 'components/links';
-@import 'layout/page';
 @import 'layout/header';
 @import 'layout/footer';
 
@@ -19,3 +18,21 @@
     background-repeat: no-repeat;
     background-position:bottom;
 }
+
+.main{
+    height: 97vh;
+      &__form{
+      margin-top: 75px;
+      margin-left: 20px;
+      }
+        &__form--labelTitle{
+        color: white;
+        }
+        &__form--inputSearch{
+            background-color: lightcoral;
+            border:none;
+        }
+    }
+
+
+  
