@@ -1,15 +1,3 @@
-
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/header';
-@import 'layout/footer';
-
-:root{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .body{
     width: 100%;
     background-color: black;
@@ -33,6 +21,3 @@
             border:none;
         }
     }
-
-
-  
