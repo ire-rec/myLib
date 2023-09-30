@@ -8,16 +8,23 @@
 }
 
 .main{
-    height: 97vh;
+    height: 80vh;
       &__form{
       margin-top: 75px;
       margin-left: 20px;
       }
         &__form--labelTitle{
         color: white;
+        font-size: 18px;
+        }
+        &__form--inputTitle{
+            height: 20px;
+            border:none;
         }
         &__form--inputSearch{
+            height: 25px;
             background-color: lightcoral;
             border:none;
+            font-size: 16px;
         }
     }
