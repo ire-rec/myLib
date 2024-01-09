@@ -1,11 +1,16 @@
 .footer{
-background-color: white;
+    height: 20%;
+    background-image: url(../images/books.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    
     &__text{
-        color: lightcoral;
+        color: fuchsia;
+        padding-top: 90px;
+        padding-left: 20px;
     }
     &__link{
-    color: lightcoral;
-}
-
-}
+        color:fuchsia;
+}}
 
