@@ -12,7 +12,7 @@ Hace unos años, cuando no sabía nada de programación, me dedicaba a organizar
 
 Con myLib quiero crear la aplicación que hubiera necesitado por aquellos años, para prescindir de libib.
 
-## :hammer:Fases del proyecto
+## :hammer: Fases del proyecto
 
 1) Establecer objetivo del proyecto. :white_check_mark:
 2) Crear rutas e @imports. :white_check_mark:
