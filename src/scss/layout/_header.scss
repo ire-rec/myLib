@@ -1,6 +1,11 @@
-.page__header {
+.header {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 3rem;
   background-color: darkorchid;
+  &__h1{
+    
+    font-size:60px;
+    color: white;
+}
 }
